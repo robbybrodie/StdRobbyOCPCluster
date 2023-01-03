@@ -1,0 +1,6 @@
+apiVersion: project.openshift.io/v1
+description: "Rob test project"
+displayName: rob-test-project
+kind: ProjectRequest
+metadata:
+    name: rob-test-project
