@@ -1,7 +1,8 @@
 apiVersion: helm.openshift.io/v1beta1
-kind: HelmChartRepository
+kind: ProjectHelmChartRepository
 metadata:
   name: crossplanestable
+  namespace: default
 spec:
  # optional name that might be used by console
  # name: crossplanestable
