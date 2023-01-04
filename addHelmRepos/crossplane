@@ -1,9 +1,0 @@
-apiVersion: helm.openshift.io/v1beta1
-kind: HelmChartRepository
-metadata:
-  name: crossplanestable
-spec:
- # optional name that might be used by console
- # name: crossplanestable
-  connectionConfig:
-    url: 'https://charts.crossplane.io/stable'
